@@ -58,17 +58,7 @@ def main():
 
     st.subheader("")
     st.subheader("")
-    st.write("This Webapp is curriculum-based project, which is constructed as a part of Project Exhibition"
-             " by the students of VIT Bhopal.")
-    st.subheader("The Key contributors for the project are")
-    st.write("Chandan Thota")
+    st.subheader("The Key contributors for the project is")
     st.write("Om Shende")
-    st.write("Athira Elma")
-    st.write("Ishita Balodhi")
-    st.write("Sreeprada Chintaginjala")
 
     st.subheader("")
-    st.write("The source code for the website is present in the below github link")
-    github_link = '<a href="https://github.com/ipldata/IPL-Data-Analysis" target="_blank" ' \
-                  'class="Github_link" >Github link</a>'
-    st.markdown(github_link, unsafe_allow_html=True)
